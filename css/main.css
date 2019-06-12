@@ -105,15 +105,35 @@ textarea {
    ========================================================================== */
 
 html {
-    background-color: #000;
+    background-color: #fff;
     height: 100%;
 }
 
+.header h1 span {
+    font-family: 'Kristi', cursive;
+    font-size: 6em;
+    font-weight: 100;
+}
+
+.about p {
+    color: darkgray;
+    line-height: 1.5em;
+    font-size: 1;
+    height: 200px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(119, 118, 118);
+    font-family: 'Biryani', sans-serif;
     padding: 2em;
     font-size: 1.25em;
     height: 100%;
+    background: url(../img/om-transparent.png) no-repeat;
+    background-size: cover;
 }
 
 .wrapper {
@@ -127,21 +147,24 @@ body {
 .div-2,
 .div-3 {
     /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    color: #fff;
+    color: darkgray;
     line-height: 1.5em;
     font-size: 1;
-    background-color: #000;
-    height: 300px;
-    display: flex;
+    height: 200px;
     width: 30%;
+    display: flex;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    padding: 7px;
+}
+
+.div-1 {
+    border-right: #d1d2d4 solid 1px;
+    padding-right: 7px;
 }
 
 .div-2 {
-    border-right: #b3d4fc solid;
-    border-left: #b3d4fc solid;
+    border-right: #d1d2d4 solid 1px;
 }
 
 
